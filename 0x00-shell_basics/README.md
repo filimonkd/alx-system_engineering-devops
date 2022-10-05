@@ -57,3 +57,27 @@
 14. 13-symbolic_link
 
     * Script that creates a symbolic link to /bin/ls, named __ls__
+
+15. 14-copy_html
+
+    * Script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
+16. 100-lets_move
+
+    * Script that moves all files beginning with an uppercase letter to the directory /tmp/u
+
+17. 101-clean_emacs
+
+    * Script that deletes all files in the current working directory that end with the character ~
+
+18. 102-tree
+
+    * Script that creates the directories welcome/, welcome/to/ and welcome/to/school/
+
+19. 103-commas
+
+    * Script that displays lists of files and directories end with a slash, start with a dot, separeted by commas and orderedin alpha except .and ..
+
+20. school.mgc
+
+    * : 0 string SCHOOL School data !:mime school Create a magic file called school.mgc that can be used with the command file to detect School data files. School  data files always contain "SCHOOL" at offset 0.
