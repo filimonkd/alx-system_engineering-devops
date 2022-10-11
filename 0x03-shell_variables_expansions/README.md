@@ -28,3 +28,11 @@
     * Script that prints all possible combinations of two letters, except oo. Letters are lower cases, from a to z. The output should be alpha ordered, starting with aa.
 14. 13-print_float
     * Script that prints a number with two decimal places, followed by a new line.
+15. 100-decimal_to_hexadecimal
+    * Script that converts a number from base 10 to base 16.
+16. 101-rot13
+    * Script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+17. 102-odd
+    * Script that prints every other line from the input, starting with the first line.
+18. 103-water_and_stir
+    * Scripts that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
