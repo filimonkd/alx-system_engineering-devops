@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
-# Bash script that creates a RSA key pair
-# Number of bits in the created key to be created 4096
-# Name of the created private key must be school
-# The created key must be protected by the passphrase betty
+# SSH client configuration to use the private key ~/.ssh/school
+# SSH client configuration to refuse to authenticate using a password
 
-ssh-keygen -b 4096 -f school -N betty
+Host 3.238.230.209
+     PasswordAuthentication no
+     IdentityFile ~/.ssh/school
